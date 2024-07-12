@@ -13,19 +13,19 @@ This project demonstrates how to use the YOLOv5 model to detect fish in a video 
 
 ## Установка
 
-1. **Клонировать репозиторий**:
+1. **Сколонируйте репозиторий**:
     ```sh
     git clone https://github.com/Nanashi1Kuro/fish_detect.git
     cd fish_detect
     ```
 
-2. **Создать и активировать виртуальное окружение** (опционально, но рекомендуется):
+2. **Создайте и активируете виртуальное окружение** (опционально, но рекомендуется):
     ```sh
     python3 -m venv venv
     source venv/bin/activate  # На Windows используйте `venv\Scripts\activate`
     ```
 
-3. **Установить необходимые зависимости**:
+3. **Установите необходимые зависимости**:
     ```sh
     pip install -r requirements.txt
     ```
