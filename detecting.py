@@ -1,7 +1,8 @@
-import cv2
-import torch
-import logging
 import argparse
+import cv2
+import logging
+import torch
+
 
 def setup_logging():
     # Настройка логирования
