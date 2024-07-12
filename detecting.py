@@ -89,7 +89,7 @@ if __name__ == "__main__":
     # Парсер аргументов командной строки
     parser = argparse.ArgumentParser(description='Обнаружение рыб в видео с помощью YOLOv5')
     parser.add_argument('--video', type=str, default='fish.mp4', help='Путь к видеофайлу')
-    parser.add_argument('--model', type=str, default='fish_weights.pt', help='Путь к файлу весов модели YOLOv5')
+    parser.add_argument('--model', type=str, default='weights/fish_weights.pt', help='Путь к файлу весов модели YOLOv5')
     parser.add_argument('--output', type=str, default='output.avi', help='Путь для сохранения выходного видео')
     parser.add_argument('--speed', type=float, default=20.0, help='Скорость воспроизведения видео (в кадрах в секунду)')
     args = parser.parse_args()
